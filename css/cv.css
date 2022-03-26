@@ -253,9 +253,10 @@ body {
 }
 
 .competence {
-    text-align: center;
-    position: relative;
-    margin: 25% 25% 25% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     font-size: 3.5em;
 }
 
@@ -485,11 +486,16 @@ svg {
     justify-content: center;
 }
 
-.block:nth-child(13) {
+.block13 {
     display: flex;
-    flex-direction :row;
     align-items: center;
     justify-content: center;
+    height: 80vh;
+}
+
+.texte_langue {
+    text-align: center;
+    padding: 25px;
 }
 
 .experience {
@@ -617,7 +623,7 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 12.5% 0 12.5% 0;
+    height: 100vh;
 }
 
 .porsche1 {
@@ -625,7 +631,7 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 12.5% 0 12.5% 0;
+    height: 100vh;
 }
 
 .block10 {
@@ -690,13 +696,11 @@ svg {
 }
 
 .apple {
-    width: 70%;
-    margin-bottom: 2.5%;
+    width: 700px;
 }
 
 .porsche {
-    width: 50%;
-    margin-bottom: 2.5%;
+    width: 500px;
 }
 
 .voiture {
